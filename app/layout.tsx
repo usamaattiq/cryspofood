@@ -35,13 +35,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        <Script
-          id="google-adsense"
-          async
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3472931488667801"
-        />
+     <Script
+  id="google-adsense"
+  async
+  strategy="beforeInteractive"
+  crossOrigin="anonymous"
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3472931488667801"
+/>
       </head>
 
       <body className="min-h-full flex flex-col text-stone-900">
